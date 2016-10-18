@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+h1, h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #cc1465;
+
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  background-color: #ffe500;
+}
