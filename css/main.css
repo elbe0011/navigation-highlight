@@ -9,8 +9,37 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   background-color: #ffe500;
+  text-align: center;
+  padding: 0 0 0.4em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  font-size: 1.125rem;
+  background-color: #b2a212;
+  display: inline-block;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.current {
+  background-color: #cc1465;
 }
 
 h1, h2 {
@@ -20,6 +49,7 @@ h1, h2 {
 }
 
 h1 {
+  margin: 0 0 0.2em;
   font-size: 3em;
 }
 
@@ -29,8 +59,16 @@ h2 {
 
 img {
   width: 100%;
+  padding: 0 10px;
+}
+
+p {
+  padding: 0 10px;
 }
 
 footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.75rem;
   background-color: #ffe500;
 }
