@@ -3,6 +3,7 @@ html {
   font-family: Georgia, serif;
   max-width: 400px;
   line-height: 1.5;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -16,7 +17,7 @@ body {
 header {
   background-color: #ffe500;
   text-align: center;
-  padding: 0 0 0.4em;
+  padding: 0 0 0.6em;
 }
 
 ul {
@@ -38,13 +39,17 @@ a {
   text-decoration: none;
 }
 
-.current {
+a:hover {
   background-color: #cc1465;
+}
+
+.current {
+  background-color: #b20953;
 }
 
 h1, h2 {
   font-family: "Sigmar One", sans-serif;
-  color: #cc1465;
+  color: #b20953;
 
 }
 
@@ -55,9 +60,11 @@ h1 {
 
 h2 {
   font-size: 1.875rem;
+  padding: 0 10px;
 }
 
 img {
+  display: block;
   width: 100%;
   padding: 0 10px;
 }
@@ -69,6 +76,5 @@ p {
 footer {
   padding: 10px;
   text-align: center;
-  font-size: 0.75rem;
   background-color: #ffe500;
 }
